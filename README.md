@@ -12,13 +12,15 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  Projeto para a implantação do padrão CQRS em uma Web API, utilizando o padrão Mediator.
-O padrão Mediator trata das interações entre diferentes objetos, fornecendo uma classe mediadora que coordena todas as interações entre os objetos. Desta forma nenhum objeto conversa diretamente com outro, um objeto utilizará a classe mediadora para conversar indiretamente com outros objetos, reduzindo o acoplamento e a dependência entre eles e facilitando as manutenções. 
-O CQRS - Command Query Responsibility Segregation, é um padrão de arquitetura de desenvolvimento de software que permite implementar a separação de leitura e escrita em dois modelos: Query e Command, uma para leitura e outra para escrita de dados, de modo respectivo.
-Command refere-se a um comando de banco de dados, que pode ser uma das operações: Inserir/Atualizar ou Excluir;
-Query significa Consultar dados de uma fonte.;
-Assim, o CQRS separa as responsabilidades em termos de leitura e escrita, o que faz muito sentido. Esse padrão foi originado da Teoria Command and Query Separation desenvolvida por Bertrand Meye [1][2][3].
+  Um projeto para implementar o padrão CQRS em uma API da Web usando o padrão Mediator.
+O padrão Mediator lida com interações entre diferentes objetos fornecendo uma classe mediadora que coordena todas as interações entre objetos. Desta forma, nenhum objeto conversa diretamente com outro objeto, o objeto utilizará a classe mediadora para se comunicar indiretamente com outros objetos, diminuindo o acoplamento e dependência entre eles e facilitando a manutenção.
+CQRS - Command Query Responsibility Segregation, é uma arquitetura de desenvolvimento de software que permite implementar a segregação de leitura e escrita em dois modelos: Query e Command, um para leitura e outro para escrita de dados.
+Comando refere-se a um comando de banco de dados, que pode ser uma das operações: Inserir/Atualizar ou Excluir;
+Query significa Consultar dados da fonte.;
+Então o CQRS separa as responsabilidades em termos de leitura e escrita. Esse padrão vem da teoria de separação comando-consulta desenvolvida por Bertrand Meye. [1][2][3].
 </p>
+
+
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
